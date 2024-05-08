@@ -1,0 +1,586 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!--Navbar-->
+      <nav class="navbar navbar-expand-lg fw-bold  small ">
+        <div class="container">
+            <a href="index.html" class="navbar-brand">
+                <img src="Images/logo.png" alt="" width="40" height="40">
+            </a>
+        <!-- md toggle -->
+        <form class="d-flex mx-auto w-50 d-none d-md-inline d-lg-none " role="search">
+            
+            <div class="input-group md-input ">
+                <span class="input-group-text  border border-outline-dark bg-light fs-4" id="basic-addon1">
+                    <i class="fa fa-search  "></i>
+                </span>
+                <input type="text" style="border:1px solid  silver; width:300px; height:25px;" class="form-control-lg d-lg-none bg-light border-start-0 w-90"  aria-label="Username" aria-describedby="basic-addon1">
+              </div>
+            
+        </form> 
+        <a href="" class="btn btn-outline-none  d-lg-none d-none d-sm-inline user">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+              </svg>
+        </a>
+        <button class="btn btn-warning py-0  w-10 h-50  d-lg-none d-none d-sm-inline" type="submit">Sign</button>
+        <!-- md toggle -->
+        
+            <button
+                class="navbar-toggler border-0  "
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbar-content"
+                aria-controls="navbar-content"
+                aria-expanded="false"
+                aria-label="Toggle Navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-content">
+
+                <ul class="navbar-nav mx-auto mb-2 mb-lg-0 gap-lg-3 gap-sm-0 ">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link" aria-current="page">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Mens</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Womens</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Kids</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact us</a>
+                    </li>
+                </ul>
+                <div class="nav-right d-flex d-none d-sm-none d-lg-flex flex-row ">
+                    
+                <form class="d-flex  " role="search">
+                    <div class="input-group ">
+                        <span class="input-group-text  border-0 bg-white fs-4" id="basic-addon1">
+                            <i class="fa fa-search  border-0 "></i>
+                        </span>
+                        <input type="text" class="form-control-sm d-lg-none border-start-0" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+                      </div>
+                </form> 
+                <a href="" class="btn btn-outline-none  mb-1  user">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="currentColor" class="bi bi-person-fill" viewBox="0 0 16 16">
+                        <path d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6"/>
+                      </svg>
+                </a>
+                <button class="btn btn-warning py-0 px-2 w-10 h-50 mt-2 d-lg-none d-none d-sm-inline" type="submit">Sign</button>
+                </div>
+            </div> 
+        </div>
+    </nav> 
+    <!--navbar-->
+<section class="section2 py-4 mb-2">
+    <div class="container ">
+        <div class="row d-flex   ">
+            <div class="col-sm-6 pt-lg-5 section2h mb-2  ">
+                <h6 class=" display-5 mb-2  mb-md-2 py-2 py-sm-4 py-lg-4">
+                    FINDs YOUR <br>FAVORIT AND BEST<br> NIKE'S
+                </h6>
+                <p class="text-muted ps-2">
+                    Nike's creative marketing efforts have ensured the brand continues to dominate in the atheletic gear market.
+                </p>
+                <div class=" flex justify-content-center  d-flex flex-row  mt-5 mt-lg-5 ms-4  d-none d-sm-block">
+                    <button class="btn-btn-primary-text-emphasis main-btn-sm pe-3">
+                        Shop Now 
+                        <i class="fa fa-circle-arrow-right align-middle ps-5"></i>
+                    </button>
+                </div>
+            </div>
+            <div class="col-sm-6 px-1 px-sm-0 order-sm-2 ">
+                <div class="image-header ms-2 ms-lg-0">
+                    <img src="Images/s4.webp" alt="img" class="img-fluid  rounded-4 w-100 h-100">
+                </div>
+            </div>
+        </div>
+        <!-- Enable on >sm -->
+        
+        <!-- Enable -->
+        <div class="row align-items-center d-flex   flex-md-row flex-lg-row flex-column-reverse   ">
+            <div class="col-sm-6 px-5 px-sm-2 section2-count  ">
+                <div class="d-flex  align-items-center h-100 gap-3 mt-3 ">
+                    <div class="d-block"><h3>1876+</h3><p class="small ">New release</p></div>
+                    <div class="d-block"><h3>650+</h3><p class="small ">New offers</p></div>
+                    <div class="d-block"><h3>345+</h3><p class="small ">Best Offers</p></div>
+                </div>
+            </div>
+            <div class="col-sm-6 py-2 px-3 px-sm-0">
+                <div class="row picS3 ">
+                    <div class="col-4 img1 ">
+                        <div class="card">
+                            <img src="Images/s1.jpeg" class="card-img-top img-fluid" alt="...">
+                            </div>
+                    </div>
+                    <div class="col-4 img2">
+                        <div class="card">
+                            <img src="Images/s2.jpeg" class="card-img-top img-fluid" alt="...">
+                            </div>
+                    </div>
+                    <div class="col-4 img3">
+                        <div class="card">
+                            <img src="Images/s3.jpeg" class="card-img-top img-fluid" alt="...">
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Enable Button here -->
+        <div class=" flex justify-content-center text-center d-flex flex-row  mt-2  d-sm-none">
+            <button class="btn main-btn pe-3" style="background:#9BE7F5;">
+                Shop Now 
+                <i class="fa fa-circle-arrow-right align-middle ps-5"></i>
+            </button>
+        </div>
+    </div>
+</section>
+<section class="section3 py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-4"></div>
+            <div class="col-lg-8">
+                <div class="d-block justify-content-center mb-2">
+                    <h2 class="text-lg-center mb-2 mb-lg-4">OUR POPULAR PRODUCTS</h2>
+                    <p class="small text-lg-center ms-4 ms-lg-4 ">Nike forward is an all new material made from ultra thin,needle punched layers.It's a 
+                        super soft ,incredibly warm ,and absurdly lightweight</p>
+                </div>
+            <div class="col-lg-2"></div>
+            </div>
+            
+            
+        </div>
+        <div class="row py-3 px-4">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+                <div class="card shadow-sm" >
+                    <div class="card-body">
+
+                      <div class="title-icon d-flex justify-content-between ">
+                        <h5 class="card-title">NIKE AIR MAX</h5>
+                        <span><i class="fa fa-heart"></i></span>
+                      </div>
+                      <img src="Images/s7.jpg" alt="" class="img-fluid w-100">
+                      <div class="d-flex justify-content-around align-items-center">
+                        <hr class="section3-hr">
+                      <span href="#" class="card-link text-decoration-none text-black  small border-0 bg-none">Shop Now</span>
+                      <i class="fa fa-arrow-circle-right align-middle ms-auto"></i>
+                    </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-lg-6 mb-sm-2 mb-2 mb-lg-0">
+                <div class="card shadow-sm" >
+                    <div class="card-body">
+
+                      <div class="title-icon d-flex justify-content-between ">
+                        <h5 class="card-title">NIKE AIR MAX</h5>
+                        <span><i class="fa fa-heart "></i></span>
+                      </div>
+                      <img src="Images/s8.jpg" alt="" class="img-fluid w-100">
+                      <div class="d-flex justify-content-around align-items-center">
+                        <hr class="section3-hr">
+                      <span href="#" class="card-link text-decoration-none text-black  small border-0  bg-none">Shop Now</span>
+                      <i class="fa fa-arrow-circle-right align-middle ms-auto"></i>
+                    </div>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section4 py-4">
+    <div class="container ">
+        <div class="row">
+            <div class="col-lg-2 col-md-4"></div>
+            <div class="col-lg-8">
+                <div class="d-block justify-content-center mb-2">
+                    <h2 class="text-lg-center mb-2 mb-lg-4">BEST SELLING PRODUCTS</h2>
+                    <p class="small text-lg-center ms-4 ms-lg-4 ">The World largest athletic apparel company,Nike is best known for its footwear ,apparel and equipment</p>
+                </div>
+            <div class="col-lg-2"></div>
+            </div>
+        </div>
+        <div class="row py-5 ">
+            <div class="col-6 col-sm-3 ">
+                <figure class="figure ">
+                    <img src="Images/s13.jpg" class=" border figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption"><h6>NIKE HAYATE.</h6>
+                        <span>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="far fa-star"></i>
+                       </span>
+                    </figcaption>
+                  </figure>
+            </div>
+            <div class="col-6 col-sm-3">
+                <figure class="figure ">
+                    <img src="Images/s10.jpg" class=" border figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption"><h6>NIKE MIZUNO.</h6>
+                        <span>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="far fa-star"></i>
+                       </span>
+                    </figcaption>
+                  </figure>
+            </div>
+            <div class="col-6 col-sm-3 ">
+                <figure class="figure ">
+                    <img src="Images/s12.jpg" class=" border figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption"><h6>NIKE PG 3 EP.</h6>
+                        <span>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="far fa-star"></i>
+                       </span>
+                    </figcaption>
+                  </figure>
+            </div>
+            <div class="col-6 col-sm-3 ">
+                <figure class="figure ">
+                    <img src="Images/s14.jpg" class=" border figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption"><h6>NIKE SUMMIT WALKING.</h6>
+                    <span>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star "></i>
+                         <i class="fa fa-star "></i>
+                         <i class="fa fa-star "></i>
+                         <i class="far fa-star  text-warning"></i>
+                    </span>
+                    </figcaption>
+                  </figure>
+            </div>
+        </div>
+    </div>
+</section>
+<!--SECTION 5-->
+<section class="section5 py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-2 col-md-4"></div>
+            <div class="col-lg-8">
+                <div class="d-block justify-content-center mb-2">
+                    <h2 class="text-lg-center mb-2 mb-lg-0">ALWAYS ICONIC PRODUCTS</h2>
+                    <p class="small text-lg-center ms-4 ms-lg-4 ">Apart from its brand ,Nike market its product under Nike pro ,Nike+,Nike Golf,Nike blazers,Air zordan,Air max and other as well as subsidiaries including brands jordon,Hurley,int.and Converse</p>
+                </div>
+            <div class="col-lg-2"></div>
+            </div>
+        </div>
+        <div class="row py-5 ">
+            <div class="col-6 col-sm-3 ">
+                <figure class="figure ">
+                    <img src="Images/s13.jpg" class=" border figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption"><h6>NIKE HAYATE.</h6>
+                        <span>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="far fa-star"></i>
+                       </span>
+                    </figcaption>
+                  </figure>
+            </div>
+            <div class="col-6 col-sm-3">
+                <figure class="figure ">
+                    <img src="Images/s10.jpg" class=" border figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption"><h6>NIKE MIZUNO.</h6>
+                        <span>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="far fa-star"></i>
+                       </span>
+                    </figcaption>
+                  </figure>
+            </div>
+            <div class="col-6 col-sm-3 ">
+                <figure class="figure ">
+                    <img src="Images/s12.jpg" class=" border figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption"><h6>NIKE PG 3 EP.</h6>
+                        <span>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="far fa-star"></i>
+                       </span>
+                    </figcaption>
+                  </figure>
+            </div>
+            <div class="col-6 col-sm-3 ">
+                <figure class="figure ">
+                    <img src="Images/s14.jpg" class=" border figure-img img-fluid rounded" alt="...">
+                    <figcaption class="figure-caption"><h6>NIKE SUMMIT WALKING.</h6>
+                    <span>
+                         <i class="fa fa-star"></i>
+                         <i class="fa fa-star "></i>
+                         <i class="fa fa-star "></i>
+                         <i class="fa fa-star "></i>
+                         <i class="far fa-star  text-warning"></i>
+                    </span>
+                    </figcaption>
+                  </figure>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- SECTION 5 -->
+<!-- SECTION 6 -->  
+<section class="section6 py-4">
+    <div class="container  ">
+        <div class="row d-flex flex-md-column-reverse flex-column-reverse flex-lg-row">
+            <div class="col-lg-7 border-lg border-0 border-sm-0  rounded-4  px-sm-0 ">
+                   <div class="px-4 px-sm-5 px-lg-0">
+                    <img src="Images/s13.jpg" class="figure-img img-fluid img-thumbnail  rounded h-100 w-100" alt="...">
+                   </div>
+            </div>
+            <div class="col-lg-5">
+                <div class="row ">
+                        <div class="d-block mb-2">
+                            <h2 class=" mb-2 mb-lg-0">WE HAVE THE BEST FEATUREIN SHOES</h2>
+                            <p class="small  ms-2 ms-lg-4 ">
+                                Quality is not just a word; It is the cornerstone of our shoe designs.
+                                Meticulosily crafted using premium materials,our shoes are a testament to durability and resillence.
+                            </p>
+                        </div>
+                        <div class=" flex justify-content-center text-center d-flex flex-row  mt-2 d-none d-lg-block">
+                            <button class="btn-btn-primary-text-emphasis main-btn pe-3 fw-normal">
+                                Explore now 
+                                <i class="fa fa-circle-arrow-right align-middle ps-5"></i>
+                            </button>
+                        </div>
+                        
+                        
+                        
+                </div>
+            </div>
+        </div>
+        <!-- Enable button here -->
+        <div class=" flex justify-content-center text-center d-flex flex-row  mt-2  d-lg-none">
+            <button class="btn-btn-primary-text-emphasis main-btn pe-1 fw-normal">
+                Explore now 
+                <i class="fa fa-circle-arrow-right align-middle ps-1 me-3 "></i>
+            </button>
+        </div>
+    </div>
+</section>
+<!-- SECTION 6 -->
+<!-- SECTION 7 -->
+<section class="section7 py-4">
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-lg-1 col-md-4"></div>
+            <div class="col-lg-10">
+                <div class="d-block justify-content-center mb-2">
+                    <h2 class="text-lg-center mb-2 mb-lg-2">BEST QUALITY SHOE IN THE WORLD</h2>
+                    <p class="small text-lg-center ms-4 ms-lg-4 ">Apart from its brand ,Nike market its product under Nike pro ,Nike+,Nike Golf,Nike blazers,Air zordan,Air max and other as well as subsidiaries including brands jordon,Hurley,int.and Converse</p>
+                </div>
+                <div class="col-lg-1"></div>
+                </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 mb-4 mb-md-0 ">
+                
+                    <img src="Images/s16.png" alt="" class="img-fluid h-100 ">
+                
+            </div>
+            <div class="col-md-8 mb-4 mx-0">
+                
+                    <img src="Images/s17.png" alt="" class="img-fluid h-100">
+                
+            </div>
+        </div>
+    </div>
+</section>
+<!-- SECTION 7 -->
+<!-- SECTION 8 -->
+<section class="section8 py-5">
+    <div class="container">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-sm-3 ms-sm-auto">
+                        <h6 class="text-uppercase fw-bold mb-1">
+                            Icons
+                          </h6>
+                          <ul>
+                            <li>
+                                <a href="" class="link text-decoration-none text-black">Air Force 1</a>
+                            </li>
+                            <li>
+                                <a href="" class="link text-decoration-none text-black">Huarache</a>
+                            </li>
+                            <li>
+                                <a href="" class="link text-decoration-none text-black">Air Max 90</a>
+                            </li>
+                            <li>
+                                <a href="" class="link text-decoration-none text-black">Air Max 95</a>
+                            </li>
+                          </ul>
+                    </div>
+                    
+                    
+                    <div class="col-6 col-sm-3">
+                        <h6 class="text-uppercase fw-bold mb-1">
+                            Shoes
+                          </h6>
+                          <ul>
+                            <li>
+                                <a href="" class="link text-decoration-none text-black">Air Force 1</a>
+                            </li>
+                            <li>
+                                <a href="" class="link text-decoration-none text-black">Huarache</a>
+                            </li>
+                            <li>
+                                <a href="" class="link text-decoration-none text-black">Air Max 90</a>
+                            </li>
+                            <li>
+                                <a href="" class="link text-decoration-none text-black">Air Max 95</a>
+                            </li>
+                          </ul>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                        <h6 class="text-uppercase fw-bold mb-1">
+                            Clothing
+                          </h6>
+                          <ul>
+                            <li>
+                                <a href="" class="link text-decoration-none text-black">Air Force 1</a>
+                            </li>
+                            <li>
+                                <a href="" class="link text-decoration-none text-black">Huarache</a>
+                            </li>
+                            <li>
+                                <a href="" class="link text-decoration-none text-black">Air Max 90</a>
+                            </li>
+                            <li>
+                                <a href="" class="link text-decoration-none text-black">Air Max 95</a>
+                            </li>
+                          </ul>
+                    </div>
+                    <div class="col-6 col-sm-3">
+                        <h6 class="text-uppercase fw-bold mb-1">
+                            Kids'
+                          </h6>
+                          <ul>
+                            <li>
+                                <a href="" class="link text-decoration-none text-black">Air Force 1</a>
+                            </li>
+                            <li>
+                                <a href="" class="link text-decoration-none text-black">Huarache</a>
+                            </li>
+                            <li>
+                                <a href="" class="link text-decoration-none text-black">Air Max 90</a>
+                            </li>
+                            <li>
+                                <a href="" class="link text-decoration-none text-black">Air Max 95</a>
+                            </li>
+                          </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- SECTION 8 -->
+<!-- SECTION 9 -->
+ <footer class="footer text-bg-dark py-3 ">
+    <div class="container">
+        
+        <div class="row mt-3 p-0">
+    
+            <div class="col-md-3 col-4 mx-auto mb-4">
+            
+            <h6 class="text-uppercase fw-bold mb-4">
+              <img src="Images/logo.png" alt="" width="40" height="40">
+            </h6>
+            <p>
+                The swaash is the logo of the american sportswear designer and retailer nike.Today ,it has becomce one of the most 
+                recognizedlogos in the world.
+            </p>
+            <p class="d-flex gap-md-3 gap-1  ">
+                <i class="fab fa-instagram ficon"></i>
+                <i class="fab fa-twitter ficon"></i>
+                <i class="fab fa-facebook ficon"></i><i class="fab fa-youtube ficon"></i>
+            </p>
+          </div>
+          
+  
+                   <div class="col-3 col-md-3  mx-auto mb-4">
+            
+            <h6 class="text-uppercase fw-bold mb-4">
+              Products
+            </h6>
+            <p>
+              <a href="#!" class="text-reset mb-2 text-decoration-none">New </a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Upcoming</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Collections</a>
+            </p>
+            <p>
+              <a href="" class="text-reset text-decoration-none" >New Arrival</a>
+            </p>
+          </div>
+          <div class="col-3 mx-auto mb-4">
+    
+            <h6 class="text-uppercase fw-bold mb-4">
+              Resources
+            </h6>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Instagram</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Articles</a>
+            </p>
+            <p>
+              <a href="#!" class="text-reset text-decoration-none">Youtube demo</a>
+            </p>
+          </div>
+          <div class="col-2 mx-auto mb-md-0 mb-4">
+ 
+            <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+            <p> Live chat 24/7</p>
+            <p>
+              
+              Email us
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+</footer>
+<!-- SECTION 9 -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

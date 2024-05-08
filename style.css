@@ -1,0 +1,87 @@
+.nav-right{
+    
+    margin-right:0;
+    margin-left:0vw;
+}
+body{
+
+}
+@font-face {
+    font-family: ethnocentric;
+    src: url("../fonts/ethnocentric.otf");
+  }
+h1,h2,h3,h4,h5,h6{
+    font-family:ethnocentric;   
+}
+.section4 i,.section5 i{
+    color:rgba(255,193,7,.6);
+    
+}
+.main-btn-sm{
+    border:1px solid #9BE7F5;;
+    padding:5px 19px;
+    display:inline-block;
+    background:#9BE7F5;;
+    border-radius:20px;
+    font-weight:800;
+}
+.main-btn{
+    border:1px solid#9BE7F5;;
+    padding:5px 19px;
+    display:inline-block;
+    background:#9BE7F5;;
+    border-radius:20px;
+    font-weight:800;
+}
+.footer h6,.section8 h6{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media screen and (max-width:596px) {
+    .footer{
+        font-size:7px;
+    }
+    .footer h6{
+        font-size:6px;
+    }
+    .ficon{
+        font-size:calc(.9rem + .6vw) !important;
+    }
+    
+    .first{
+        /* margin-left:2px; */
+        padding-left:2px;
+    }
+    .section8{
+        font-size:12px;
+    }
+    .section3-hr{
+        width:50%;
+        border:1px solid;
+    }
+    .section2-count h3{
+        font-size:18px;
+    }
+    .section2 h6{
+        font-size:19px;
+    }
+
+    
+}
+@media screen and (min-width:600px) and (max-width:990px){
+    .section2 h6{
+        font-size:23px;
+    }
+    /* .nav-right{
+        margin-top:-42%;
+        margin-left:10%; 
+    }*/
+}
+@media screen and (min-width:600px){
+    .ficon{
+        font-size:calc(1.3rem + .6vw) !important;
+    }
+    .section3-hr{
+        width:75%;
+        border:1px solid;
+    }
+}
